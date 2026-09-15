@@ -194,6 +194,22 @@ export default function SparkasseApp() {
       category: 'Shopping'
     },
      {
+      id: 'tx-32',
+      date: '09.09.2026',
+      name: 'Höffler Berchtesgaden GmbH / Berchtesgaden/DE',
+      shortName: '',
+      reference: '2026-09-09T09:36 Debitk.0 2028-12',
+      amountNum: -56.26,
+      amountStr: '-56,26 €',
+      isPositive: false,
+      accountSource: 'Girokonto XTENSION über 18',
+      postingDate: '09.09.2026',
+      valueDate: '09.09.2026',
+      iban: 'DE33 3005 0000 0001 1397 16',
+      bic: 'WELADEDDXXX',
+      category: 'Groceries'
+    },
+     {
       id: 'tx-24',
       date: '08.09.2026',
       name: 'ALDI SE U. CO. KG/REICHENHALLER STR. 16/BISCHOFSWIESEN/DE',
