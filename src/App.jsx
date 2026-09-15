@@ -114,6 +114,22 @@ export default function SparkasseApp() {
   // Chronologically ordered transactions extracted from the uploaded images stored in state
   const initialTransactions = [
     {
+      id: 'tx-34',
+      date: '14.09.2026',
+      name: 'Ioan-Mircea Jebelean, Cristina-Ecaterina Jebelean',
+      shortName: 'Ioan-Mircea Jebelean Cristina-Ecaterina Jebelean',
+      reference: 'DATUM 14.09.2026, 14:18 UHR',
+      amountNum: -4.55,
+      amountStr: '-4,55 €',
+      isPositive: false,
+      accountSource: 'Girokonto XTENSION über 18',
+      postingDate: '30.08.2026',
+      valueDate: '30.08.2026',
+      iban: 'DE22 7105 0000 0020 3053 48',
+      bic: 'BYLADEM1BGL',
+      category: 'Unassigned'
+    },
+    {
       id: 'tx-1',
       date: '14.09.2026',
       name: 'Ioan-Mircea Jebelean, Cristina-Ecaterina Jebelean',
